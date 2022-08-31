@@ -9,10 +9,10 @@ int main()
   char input[8];
   char password[8];
 
-  std::sscanf(PASSWORD_FILE, "%s", password);
+  sscanf(PASSWORD_FILE, "%s", password);
 
-  std::cout << "Enter password: ";
-  std::cin >> input;
+  cout << "Enter password: ";
+  cin >> input;
 
   // Debug prints:
   // std::cout << "Address of input: " << &input << "\n";
@@ -21,9 +21,9 @@ int main()
   // std::cout << "Password: " << password << "\n";
 
   if (std::strncmp(password, input, 8) == 0)
-    std::cout << "Access granted\n";
+    cout << "Access granted\n";
   else
-    std::cout << "Access denied\n";
+    cout << "Access denied\n";
 
   return 0;
 }
