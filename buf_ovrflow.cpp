@@ -1,6 +1,6 @@
 #include<cstring>
-#define BUFSIZE 256
+#define BUFSIZE 10
 int main(int argc, char **argv) {
 char buf[BUFSIZE];
-strcpy(buf, argv[1]);
+buf[11]='a';
 }
