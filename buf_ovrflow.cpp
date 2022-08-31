@@ -3,5 +3,5 @@ using namespace std;
 
 int main(void){
  int buffer[10];
-  buffer[11] = 7;
+  buffer[12] = 7;
 }
