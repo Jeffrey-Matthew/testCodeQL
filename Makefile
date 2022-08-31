@@ -1,6 +1,6 @@
 all: test1
 
 test1:
-	gcc -o test1.o test1.cpp
+	gcc -o buf_ovrflow.o buf_ovrflow.cpp
 clean:
 	rm test*.o
