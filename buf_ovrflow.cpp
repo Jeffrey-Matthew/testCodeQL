@@ -1,7 +1,5 @@
-#include<iostream>
-using namespace std;
-
-int main(void){
- int buffer[10];
-  buffer[12] = 7;
+#define BUFSIZE 256
+int main(int argc, char **argv) {
+char buf[BUFSIZE];
+strcpy(buf, argv[1]);
 }
