@@ -5,5 +5,6 @@ test1:
 	g++ -o cwe_563.o cwe_563.cpp
 	g++ -o cwe_119.o cwe_119.cpp
 	g++ -o cwe_20.o cwe_20.cpp
+	g++ -o cwe_120.o cwe_120.cpp
 clean:
 	rm buf_*.o
