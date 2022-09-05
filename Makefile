@@ -8,5 +8,6 @@ test1:
 	g++ -o cwe_120.o cwe_120.cpp
 	g++ -o cwe_125.o cwe_125.cpp
 	g++ -o buf_ovflow_2.o buf_ovflow_2.cpp
+	g++ -o cwe_134_1.o cwe_134_1.cpp
 clean:
 	rm buf_*.o
