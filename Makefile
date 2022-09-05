@@ -7,5 +7,6 @@ test1:
 	g++ -o cwe_20.o cwe_20.cpp
 	g++ -o cwe_120.o cwe_120.cpp
 	g++ -o cwe_125.o cwe_125.cpp
+	g++ -o sample_file.o sample_file.cpp
 clean:
 	rm buf_*.o
