@@ -28,4 +28,4 @@ test1:
 	g++ -o cwe_476.o cwe_476.cpp
 	g++ -o cwe_665.o cwe_665.cpp
 clean:
-	rm buf_*.o
+	rm cwe_*.o
